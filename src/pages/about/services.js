@@ -1,10 +1,13 @@
 import React from 'react';
+import Layout from "../../components/layout"
 
 export default function Services() {
     return (
-        <div>
-            <h1>Services</h1>
-            <p>Jajsjsjasjajsajsajsajsjaj</p>
-        </div>
+        <Layout>
+            <div>
+                <h1>Services</h1>
+                <p>Jajsjsjasjajsajsajsajsjaj</p>
+            </div>
+        </Layout>
     )
 }

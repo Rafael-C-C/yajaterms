@@ -1,15 +1,16 @@
 import React from "react"
-import NavBar from "../components/navbar"
+import Layout from "../components/layout"
 
 export default function Home() {
   return (
-    <section>
-      <NavBar />
-      <div>
-        <h2>Desing</h2>
-        <h3>Develop & hajsa</h3>
-        <p>Diseño de cja</p>
-      </div>
-    </section>
+    <Layout>
+      <section>
+        <div>
+          <h2>Desing</h2>
+          <h3>Develop & hajsa</h3>
+          <p>Diseño de cja</p>
+        </div>
+      </section>
+    </Layout>
   )
 }
