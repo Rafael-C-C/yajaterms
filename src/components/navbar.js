@@ -10,7 +10,6 @@ export default function NavBar() {
                 <Link to="/about/about">Sobre nosotros</Link>
                 <Link to="/about/privacity">Términos y condiciones</Link>
                 <Link to="/portfolio/portfolio">Productos y servicios</Link>
-
             </div>
         </nav>
     )
