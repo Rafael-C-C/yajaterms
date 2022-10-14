@@ -14,6 +14,7 @@ export default function Home() {
           <p>Diseño de caja</p>
           <Link className={btn} to="/about/privacity">Términos y condiciones</Link>
         </div>
+        <img src="/banner.png" alt="site banner" style={{maxWidth: '100%'}}/>
       </section>
     </Layout>
   )
