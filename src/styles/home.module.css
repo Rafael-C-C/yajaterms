@@ -1,6 +1,5 @@
 .header {
-    padding: 0.2rem;
-    display: grid;
+    padding: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     align-items: center;
@@ -30,9 +29,9 @@
 
 .card {
     --card-gradient: rgba(0, 0, 0, 0.8);
-    --card-gradient: #1cb399, #407260;
+    --card-gradient: #815b2a, #eec16d;
     --card-blend-mode: overlay;
-    background-color: wheat;
+    background-color: transparent;
     border-radius: 0.5rem;
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
     padding-bottom: 1rem;

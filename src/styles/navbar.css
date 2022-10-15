@@ -1,0 +1,125 @@
+*{
+  padding:0px;
+margin:0px;
+}
+
+.sitenavbar{
+    position:relative;
+    height:200px;
+}
+
+#navbar {
+    position:block;
+    float:right;
+    padding:10px;
+}
+
+
+#navbar > a {
+     text-decoration: none;
+     font-size: 20px;
+     padding:12px;
+     color:#fff
+}
+#navbar > .current{
+    color:#000;
+}
+
+
+#navbar > a:hover {
+    color:#000;
+}
+
+.logo {
+
+     position: absolute;
+     top:70px;
+     left:100px; 
+}
+
+.sitelogo {
+    font-size:60px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#000;
+}
+
+#navcheck{
+    display:none;
+    
+}
+
+
+
+
+@media only screen and (max-width:600px){
+  .site-navbar{
+    top: 10px;
+  }
+        .navbtn > label{
+            
+            display:inline-block;
+            /*float:right;*/
+            height:50px;
+            width:50px;
+            padding:2px;
+            top:10px;
+
+    }
+    
+     .navbtn > label > span{
+        display:block;
+        float:right;
+        width:30px;
+        height:10px;
+
+        border-top: 2px solid rgb(255, 255, 255);
+        
+    }
+  
+      #navbar {
+      
+        display: block;
+        position: absolute;
+        left:0;
+        transition: all 0.3s ease-in;
+        top:50px;
+        height: 0px;
+        overflow-y:hidden;
+
+    }
+    
+    #navbar > a {
+        display: block;
+        width:100%;
+    }
+    
+   .logo{
+
+        position:absolute;
+        display:block;
+        float:left;
+        top:0px;
+        left:12px;
+       
+    }
+    
+    .sitelogo{
+      
+        font-size: 20px;
+        left:0px;
+        padding-left:0px;
+        
+    }
+    
+    #navcheck:not(:checked) + #navbar {
+        height: 0px;
+    }
+    
+    #navcheck:checked + #navbar {
+         height:calc(100vh - 50px);
+         overflow-y: auto;
+    } 
+    
+}
