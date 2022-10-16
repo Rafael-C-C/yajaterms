@@ -13,6 +13,7 @@ export default function Home() {
           <h3>YajaXal.</h3>
           <Link className={btn} to="/about/privacity">Términos y condiciones</Link>
         </div>
+        <img src="/banner.png" alt="site banner" style={{maxWidth: '100%'}}/>
         <br></br>
       </section>
 
@@ -28,19 +29,25 @@ export default function Home() {
       <section className={cardwrapper}>
       <li className={card}>
         <img src='/products.jpeg' alt='ProductsImage'/>
-        <h3><a href="/portfolio/pruducts">Productos</a></h3>
+        <h3><a href="/portfolio/pruducts">Productos y Servicios</a></h3>
         <p>Aquí encontrarás información sobre los productos con los que contamos.</p>
-      </li>
-
-      <li className={card}>
-        <img src='/services.jpg' alt='servicesimage'/>
-        <h3><a href="/portfolio/services">Servicios</a></h3>
-        <p>Aquí encontrarás información sobre los servicios que ofrecemos.</p>
       </li>
 
       <li className={card}>
       <img src='/contact.jpg' alt='ContactImage'/>
       <h3><a href="/about/contact">Contacto</a></h3>
+      <p>Aquí encontrarás la información con la que podrás contactarnos</p>
+      </li>
+  
+      <li className={card}>
+      <img src='/contact.jpg' alt='ContactImage'/>
+      <h3><a href="/about/contact">Términos y condiciones</a></h3>
+      <p>Aquí encontrarás la información con la que podrás contactarnos</p>
+      </li>
+
+      <li className={card}>
+      <img src='/services.jpg' alt='ContactImage'/>
+      <h3><a href="/about/aviso">Política de privacidad.</a></h3>
       <p>Aquí encontrarás la información con la que podrás contactarnos</p>
       </li>
       </section>
