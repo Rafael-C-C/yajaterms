@@ -7,7 +7,7 @@ export default function About() {
         <Layout>
             <div className={styles.portfolio}>
                 <h2>Aviso de privacidad.</h2>
-                <h3></h3>
+                
             </div>
             <br></br>
             <div>

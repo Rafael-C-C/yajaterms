@@ -1,7 +1,7 @@
-import { header, btn, card, cardwrapper} from "../styles/home.module.css"
+import { header, card, cardwrapper} from "../styles/home.module.css"
 import * as styles from "../styles/projects.module.css"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+
 import React from "react"
 
 export default function Home() {

@@ -19,11 +19,3 @@ export default function NavBar() {
 }
 
 
-/*
-            <ul>
-              <li><a class="active" href="/">Inicio</a></li>
-              <li><a href="/about/aviso">Aviso de privacidad</a></li>
-              <li><a href=""></a></li>
-              <li><a href="#about">Sobre nosotros</a></li>
-            </ul>
-*/

@@ -8,7 +8,7 @@ export default function aviso() {
         <Layout>
             <div className={styles.portfolio}>
                 <h2>Política de priacidad.</h2>
-                <h3></h3>
+
             </div>
             <br></br>
             <div>
