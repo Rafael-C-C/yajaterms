@@ -24,13 +24,20 @@ p {
     line-height: 1.5em;
   }
   
-  /* layout & nav */
   
   .layout {
     max-width: 1200px;
     margin: 0 auto;
   }
-  nav {
+
+  footer p{
+    text-align: center;
+    color: #bbb;
+    margin: 40px auto;
+  }
+
+  /*
+    nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 40px auto;
@@ -49,8 +56,4 @@ p {
   nav a:hover {
     border-color: white;
   }
-  footer p{
-    text-align: center;
-    color: #bbb;
-    margin: 40px auto;
-  }
+  */

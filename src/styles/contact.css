@@ -1,127 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
 
-.container {
-    width: 1000px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container .card {
-    position: relative;
-    border-radius: 10px;
-}
-
-.container .card .icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: 0.7s;
-    z-index: 1;
-}
-
-.container .card:nth-child(1) .icon {
-    background: #e07768;
-}
-
-.container .card:nth-child(2) .icon {
-    background: #6eadd4;
-}
-
-.container .card:nth-child(3) .icon {
-    background: #4aada9;
-}
-
-
-.container .card .icon .fa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.7s;
-    color: #fff;
-}
-
-i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.7s;
-    color: #fff;
-}
-
-.container .card .face {
-    width: 300px;
-    height: 200px;
-    transition: 0.5s;
-}
-
-.container .card .face.face1 {
-    position: relative;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
-}
-
-.container .card:hover .face.face1{
-    background: #ff0057;
-    transform: translateY(0px);
-}
-
-.container .card .face.face1 .content {
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.container .card:hover .face.face1 .content {
-    opacity: 1;
-}
-
-.container .card .face.face1 .content i{
-    max-width: 100px;
-}
-
-.container .card .face.face2 {
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.cards{
+    max-width: 1100px;
+    text-align: center;
+    padding: 30px;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
-    transform: translateY(-100px);
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
 }
-
-.container .card:hover .face.face2{
-    transform: translateY(0);
-}
-
-.container .card .face.face2 .content p {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: #414141;
-}
-
-.container .card .face.face2 .content h3 {
-    margin: 0 0 10px 0;
-    padding: 0;
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    color: #414141;
-} 
-
-.container a {
+.cards a{
+    margin: 22px 0;
+    background: black;
+    color: whitesmoke; /* Color texto */
     text-decoration: none;
-    color: #414141;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: .3s ease;
+  }
+  .cards a:hover{
+    border-radius: 4px;
+  }
+.cards h1{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.services{
+  display: flex;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  transition: all .3s ease;
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+.content:hover{
+  color: white;
+}
+.content:hover a{
+  border-color: white;
+  background: transparent;
+}
+.content-1:hover{
+  border-color: #4267B2;
+  background: #4267B2;
+}
+.content-1:hover a{
+  color: #4267B2;
+}
+.content-2:hover{
+  border-color: #2a9565;
+  background: #2a9565;
+}
+.content-2:hover a{
+  color: #2a9565;
+}
+.content-3:hover{
+  border-color: #ff0000;
+  background: #ff0000;
+}
+.content-3:hover a{
+  color: #ff0000;
+}
+
+.content-4:hover{
+    border-color: #ebc51f;
+    background: #ebc51f;
+  }
+  .content-4:hover a{
+    color: #ebc51f;
+  }
+
+  .content-5:hover{
+    border-color: #1faeeb;
+    background: #1faeeb;
+  }
+  .content-5:hover a{
+    color: #1faeeb;
+  }
+  
+.content h2{
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+
+@media (max-width: 900px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
 }

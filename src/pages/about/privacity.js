@@ -7,7 +7,7 @@ export default function Privacity() {
         <Layout>
             <div className={styles.portfolio}>
                 <h2>Términos y condiciones.</h2>
-                <h3></h3>
+                
             </div>
             <br></br>
             <div>

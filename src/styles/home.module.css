@@ -59,20 +59,18 @@
     --card-gradient: #24a9d5 max(8.5rem, 20vh);
   }
   
-  /* Additional demo display styles */
   * {
     box-sizing: border-box;
   }
   
   body {
-    display: grid;
+
     place-content: center;
     justify-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
     line-height: 1.5;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     color: #444;
     background-color: #e1faf1;
   }

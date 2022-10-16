@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import * as styles from "../../styles/projects.module.css"
 import * as sty from "../../styles/contact.css"
 
 
@@ -8,59 +7,50 @@ import * as sty from "../../styles/contact.css"
 export default function contact() {
     return (
         <Layout>
-            <div class="container">
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <div class="icon">
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </div>
-                </div>
+            <div class="cards">
+      <h1>Puedes contactarnos por estos medios:</h1>
+
+            <div class="services">
+            <div class="content content-1">
+            <div class="fab fa-facebook">
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <h3>
-                        <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank">_adamdipinto</a>
-                    </h3>
-                    <p>This is where I network and build my professional protfolio.</p>
-                </div>
+                <h2>Facebook</h2>
+                <p>Puedes encontrarnos en nuestra página de facebook como:</p>
+                <p>"Instituto Mexicano de la Administración del Conocimiento (IMAC)"</p>
+                <a href="https://www.facebook.com/imacface">Visitar</a>
             </div>
-        </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <div class="icon">
-                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                    </div>
-                </div>
+
+            <div class="content content-4">
+            <div class="fab fa-linkedin">
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <h3>
-                        <a href="https://twitter.com/AdamDipinto" target="_blank">@AdamDipinto</a>
-                    </h3>
-                    <p>This is where I read news and network with different social groups.</p>
-                </div>
+                <h2>LinkedIn</h2>
+                <p>Puedes encontrarnos en nuestro perfil de LinkedIn como:</p>
+                <p>"Instituto Mexicano de la Administración del Conocimiento (IMAC)"</p>
+                <a href="https://www.linkedin.com/company/2609786/">Visitar</a>
             </div>
-        </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <div class="icon">
-                        <i class="fa fa-github-square" aria-hidden="true"></i>
-                    </div>
-                </div>
+
+            <div class="content content-3">
+            <div class="fab fa-youtube">
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <h3>
-                        <a href="https://github.com/atom888" target="_blank">atom888</a>
-                    </h3>
-                    <p>This is where I share code and work on projects.</p>
-                </div>
+                <h2>Youtube</h2>
+                <p>Puedes encontrarnos en nuestro canal de Youtube como:</p>
+                <p>"IMAC - Instituto Mexicano de la Administración del Conocimiento A.C."</p>
+                <a href="https://www.youtube.com/channel/UCFNb73tmtkYArn_DpGyyX3A">Visitar</a>
             </div>
-        </div>
-    </div>
+            </div>
+
+            <div class="content content-5">
+            <div class="fab fa-youtube">
+            </div>
+                <h2>Twiteer</h2>
+                <p>Puedes encontrarnos en nuestro perfil de Twitter como:</p>
+                <p>@IMAC_AC</p>
+                <p>IMAC A.C.</p>
+                <a href="https://www.youtube.com/channel/UCFNb73tmtkYArn_DpGyyX3A">Visitar</a>
+            </div>
+            </div>
         </Layout>
     )
 }
+
+//https://twitter.com/IMAC_AC

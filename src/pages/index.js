@@ -11,7 +11,6 @@ export default function Home() {
         <div>
           <h2>YajaDoc</h2>
           <h3>YajaXal.</h3>
-          <Link className={btn} to="/about/privacity">Términos y condiciones</Link>
         </div>
         <img src="/banner.png" alt="site banner" style={{maxWidth: '100%'}}/>
         <br></br>
