@@ -7,13 +7,13 @@ import * as styles from "../../styles/contact.css"
 export default function contact() {
     return (
         <Layout>
-            <div class="cards">
-      <h1>Puedes contactarnos por estos medios:</h1>
-
+           <img src="/featured.jpg" alt="site banner" style={{maxWidth: '100%', width:"50%"}}/>
+        <div class="cards">
+            <br></br>
             <div class="services">
             <div class="content content-1">
             <div class="fab fa-facebook">
-            </div>
+        </div>
                 <h2>Facebook</h2>
                 <p>Puedes encontrarnos en nuestra página de facebook como:</p>
                 <p>"Instituto Mexicano de la Administración del Conocimiento (IMAC)"</p>

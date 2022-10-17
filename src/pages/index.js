@@ -39,7 +39,7 @@ export default function Home() {
       </li>
   
       <li className={card}>
-      <img src='/contact.jpg' alt='ContactImage'/>
+      <img src='/terms.jpg' alt='ContactImage'/>
       <h3><a href="/about/contact">Términos y condiciones</a></h3>
       <p>Aquí encontrarás la información con la que podrás contactarnos</p>
       </li>
