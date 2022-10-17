@@ -7,7 +7,7 @@ import * as styles from "../../styles/contact.css"
 export default function contact() {
     return (
         <Layout>
-           <img src="/featured.jpg" alt="site banner" style={{maxWidth: '100%', width:"50%"}}/>
+           <img src="/social.jpg" alt="site banner" style={{maxWidth: '100%', width:"50%"}}/>
         <div class="cards">
             <br></br>
             <div class="services">
