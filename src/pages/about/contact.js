@@ -10,9 +10,11 @@ export default function contact() {
            <img src="/social.jpg" alt="site banner" style={{maxWidth: '100%', width:"50%"}}/>
         <div class="cards">
             <br></br>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
             <div class="services">
             <div class="content content-1">
-            <div class="fab fa-facebook">
+            <div>
         </div>
                 <h2>Facebook</h2>
                 <p>Puedes encontrarnos en nuestra página de facebook como:</p>
@@ -21,7 +23,7 @@ export default function contact() {
             </div>
 
             <div class="content content-4">
-            <div class="fab fa-linkedin">
+            <div>
             </div>
                 <h2>LinkedIn</h2>
                 <p>Puedes encontrarnos en nuestro perfil de LinkedIn como:</p>
@@ -30,7 +32,7 @@ export default function contact() {
             </div>
 
             <div class="content content-3">
-            <div class="fab fa-youtube">
+            <div>
             </div>
                 <h2>Youtube</h2>
                 <p>Puedes encontrarnos en nuestro canal de Youtube como:</p>
@@ -40,7 +42,7 @@ export default function contact() {
             </div>
 
             <div class="content content-5">
-            <div class="fab fa-youtube">
+            <div>
             </div>
                 <h2>Twiteer</h2>
                 <p>Puedes encontrarnos en nuestro perfil de Twitter como:</p>
