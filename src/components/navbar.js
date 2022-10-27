@@ -4,6 +4,26 @@ import * as styles from '../styles/navbar.css'
 
 export default function NavBar() {
     return (
+      <section class="top-nav">
+    <div>
+      YajaDoc
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+        <li><a  href="/">Página principal</a></li>
+        <li ><a href="/about/aviso">Política de privacidad</a></li>
+        <li ><a href="/about/privacity">Términos y condiciones</a></li>
+        <li ><a href="/about/contact">Métodos de contaco</a></li>
+    </ul>
+  </section>
+    )
+}
+
+
+/*
       <label>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
@@ -14,11 +34,10 @@ export default function NavBar() {
             <a href="/about/contact"><i class="fa fa-fw fa-envelope"></i> Métodos de contaco</a>
           </div>
       </label>
-    )
-}
 
 
-/*
+
+
           <input type="checkbox"/>
           <span class="menu"> <span class="hamburger"></span> </span>
           <ul>
